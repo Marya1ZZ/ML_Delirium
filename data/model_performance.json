@@ -1,0 +1,335 @@
+[
+    {
+        "Model": "XGBoost",
+        "Accuracy": 0.8252751680310606,
+        "Precision (Delirium = 1)": 0.0811604128956509,
+        "Recall (Delirium = 1)": 0.8472931562819204,
+        "F1-Score (Delirium = 1)": 0.14813161301843833
+    },
+    {
+        "Model": "LogisticReg_Base",
+        "Accuracy": 0.9818965990879622,
+        "Precision (Delirium = 1)": 0.42016806722689076,
+        "Recall (Delirium = 1)": 0.02553626149131767,
+        "F1-Score (Delirium = 1)": 0.04814636494944632
+    },
+    {
+        "Model": "LogisticReg_Base",
+        "Accuracy": 0.9818965990879622,
+        "Precision (Delirium = 1)": 0.42016806722689076,
+        "Recall (Delirium = 1)": 0.02553626149131767,
+        "F1-Score (Delirium = 1)": 0.04814636494944632
+    },
+    {
+        "Model": "LogisticReg_SMOTE",
+        "Accuracy": 0.8147629251140047,
+        "Precision (Delirium = 1)": 0.07617722106239852,
+        "Recall (Delirium = 1)": 0.8386108273748724,
+        "F1-Score (Delirium = 1)": 0.1396674180240718
+    },
+    {
+        "Model": "LogisticReg_Balanced",
+        "Accuracy": 0.8157610387707636,
+        "Precision (Delirium = 1)": 0.07703772706101537,
+        "Recall (Delirium = 1)": 0.8447395301327886,
+        "F1-Score (Delirium = 1)": 0.1411985658186785
+    },
+    {
+        "Model": "LogisticReg_Base",
+        "Accuracy": 0.9818965990879622,
+        "Precision (Delirium = 1)": 0.42016806722689076,
+        "Recall (Delirium = 1)": 0.02553626149131767,
+        "F1-Score (Delirium = 1)": 0.04814636494944632,
+        "Confusion Matrix": [
+            [
+                107179,
+                69
+            ],
+            [
+                1908,
+                50
+            ]
+        ],
+        "ROC AUC Score": 0.9009405443601016,
+        "ROC Curve Path": "D:/MIMIC-IV-Data-Pipeline/ROC_LogisticReg_Base.png"
+    },
+    {
+        "Model": "LogisticReg_Balanced",
+        "Accuracy": 0.8157610387707636,
+        "Precision (Delirium = 1)": 0.07703772706101537,
+        "Recall (Delirium = 1)": 0.8447395301327886,
+        "F1-Score (Delirium = 1)": 0.1411985658186785,
+        "Confusion Matrix": [
+            [
+                87432,
+                19816
+            ],
+            [
+                304,
+                1654
+            ]
+        ],
+        "ROC AUC Score": 0.903056605354241,
+        "ROC Curve Path": "D:/MIMIC-IV-Data-Pipeline/ROC_LogisticReg_Balanced.png"
+    },
+    {
+        "Model": "LogisticReg_SMOTE",
+        "Accuracy": 0.8147629251140047,
+        "Precision (Delirium = 1)": 0.07617722106239852,
+        "Recall (Delirium = 1)": 0.8386108273748724,
+        "F1-Score (Delirium = 1)": 0.1396674180240718,
+        "Confusion Matrix": [
+            [
+                87335,
+                19913
+            ],
+            [
+                316,
+                1642
+            ]
+        ],
+        "ROC AUC Score": 0.9012924156046178,
+        "ROC Curve Path": "D:/MIMIC-IV-Data-Pipeline/ROC_LogisticReg_SMOTE.png"
+    },
+    {
+        "Model": "XGBoost",
+        "Accuracy": 0.8252751680310606,
+        "Precision (Delirium = 1)": 0.0811604128956509,
+        "Recall (Delirium = 1)": 0.8472931562819204,
+        "F1-Score (Delirium = 1)": 0.14813161301843833,
+        "Confusion Matrix": [
+            [
+                88466,
+                18782
+            ],
+            [
+                299,
+                1659
+            ]
+        ],
+        "ROC AUC Score": 0.9125242585912395,
+        "ROC Curve Path": "D:/MIMIC-IV-Data-Pipeline/ROC_XGBoost.png"
+    },
+    {
+        "Model": "RandomForest_Tuned",
+        "Best Parameters": {
+            "n_estimators": 300,
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "max_depth": null,
+            "class_weight": "balanced"
+        },
+        "Accuracy": 0.982098053220519,
+        "Precision (Delirium = 1)": 0.6,
+        "Recall (Delirium = 1)": 0.004596527068437181,
+        "F1-Score (Delirium = 1)": 0.00912316269640142
+    },
+    {
+        "Model": "RandomForest_SMOTE",
+        "Accuracy": 0.9800651978829003,
+        "Precision (Delirium = 1)": 0.2796780684104628,
+        "Recall (Delirium = 1)": 0.07099080694586313,
+        "F1-Score (Delirium = 1)": 0.11323828920570264
+    },
+    {
+        "Model": "RandomForest_Balanced",
+        "Accuracy": 0.9820522681903925,
+        "Precision (Delirium = 1)": 0.4375,
+        "Recall (Delirium = 1)": 0.003575076608784474,
+        "F1-Score (Delirium = 1)": 0.0070921985815602835,
+        "Confusion Matrix": [
+            [
+                107239,
+                9
+            ],
+            [
+                1951,
+                7
+            ]
+        ],
+        "ROC AUC Score": 0.8862142470433482,
+        "ROC Curve Path": "D:/MIMIC-IV-Data-Pipeline/ROC_RandomForest_Balanced.png"
+    },
+    {
+        "Model": "RandomForest_Tuned",
+        "Best Parameters": {
+            "n_estimators": 300,
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "max_depth": null,
+            "class_weight": "balanced"
+        },
+        "Accuracy": 0.982098053220519,
+        "Precision (Delirium = 1)": 0.6,
+        "Recall (Delirium = 1)": 0.004596527068437181,
+        "F1-Score (Delirium = 1)": 0.00912316269640142,
+        "Confusion Matrix": [
+            [
+                107242,
+                6
+            ],
+            [
+                1949,
+                9
+            ]
+        ],
+        "ROC AUC Score": 0.9030002983357657,
+        "ROC Curve Path": "D:/MIMIC-IV-Data-Pipeline/ROC_RandomForest_Tuned.png"
+    },
+    {
+        "Model": "RandomForest_SMOTE",
+        "Accuracy": 0.9800651978829003,
+        "Precision (Delirium = 1)": 0.2796780684104628,
+        "Recall (Delirium = 1)": 0.07099080694586313,
+        "F1-Score (Delirium = 1)": 0.11323828920570264,
+        "Confusion Matrix": [
+            [
+                106890,
+                358
+            ],
+            [
+                1819,
+                139
+            ]
+        ],
+        "ROC AUC Score": 0.8942559336092251,
+        "ROC Curve Path": "D:/MIMIC-IV-Data-Pipeline/ROC_RandomForest_SMOTE.png"
+    },
+    {
+        "Model": "LogisticReg_RFE",
+        "Accuracy": 0.92,
+        "Precision (Delirium = 1)": 0.78,
+        "Recall (Delirium = 1)": 0.65,
+        "F1-Score (Delirium = 1)": 0.71,
+        "Confusion Matrix": [
+            [
+                100,
+                5
+            ],
+            [
+                10,
+                20
+            ]
+        ],
+        "ROC AUC Score": 0.85,
+        "ROC Curve Path": "D:/MIMIC-IV-Data-Pipeline/ROC_LogisticReg_RFE.png"
+    },
+    {
+        "Model": "XGBoost_SelectFromModel",
+        "Features Selected": 54,
+        "Selected Feature Names": [
+            "ed_time_spent",
+            "los_hosp",
+            "anchor_age",
+            "primary_diagnosis",
+            "palliative_care_flag",
+            "cognitive_impairment_flag",
+            "num_comorbidities",
+            "prior_icu_admissions",
+            "unique_high_risk_med",
+            "high_risk_med_count",
+            "drug",
+            "icu_map_flag",
+            "icu_pao2_flag",
+            "icu_paco2_flag",
+            "icu_peep_flag",
+            "icu_ph_flag",
+            "icu_fio2_flag",
+            "icu_vent_mode_flag",
+            "icu_base_excess_flag",
+            "icu_lactate_flag",
+            "ed_time_missing",
+            "admission_type_DIRECT EMER.",
+            "admission_type_DIRECT OBSERVATION",
+            "admission_type_ELECTIVE",
+            "admission_type_EU OBSERVATION",
+            "admission_type_EW EMER.",
+            "admission_type_OBSERVATION ADMIT",
+            "admission_type_SURGICAL SAME DAY ADMISSION",
+            "admission_location_CLINIC REFERRAL",
+            "admission_location_EMERGENCY ROOM",
+            "admission_location_PHYSICIAN REFERRAL",
+            "admission_location_TRANSFER FROM SKILLED NURSING FACILITY",
+            "discharge_location_DIED",
+            "discharge_location_HOME",
+            "discharge_location_HOME HEALTH CARE",
+            "discharge_location_PSYCH FACILITY",
+            "discharge_location_REHAB",
+            "discharge_location_SKILLED NURSING FACILITY",
+            "discharge_location_UNKNOWN",
+            "insurance_Medicare",
+            "insurance_Other",
+            "insurance_Private",
+            "marital_status_MARRIED",
+            "marital_status_SINGLE",
+            "marital_status_UNKNOWN",
+            "race_ASIAN",
+            "race_BLACK/AFRICAN",
+            "race_BLACK/CAPE VERDEAN",
+            "race_BLACK/CARIBBEAN ISLAND",
+            "race_HISPANIC OR LATINO",
+            "race_HISPANIC/LATINO - SALVADORAN",
+            "race_UNABLE TO OBTAIN",
+            "race_WHITE - EASTERN EUROPEAN",
+            "gender_M"
+        ],
+        "Accuracy": 0.8240389722176438,
+        "Precision (Delirium = 1)": 0.08119782566491943,
+        "Recall (Delirium = 1)": 0.8544433094994893,
+        "F1-Score (Delirium = 1)": 0.1483024554560766,
+        "Confusion Matrix": [
+            [
+                88317,
+                18931
+            ],
+            [
+                285,
+                1673
+            ]
+        ],
+        "ROC AUC Score": 0.9137298307155016,
+        "ROC Curve Path": "D:/MIMIC-IV-Data-Pipeline/ROC_XGB_SelectFromModel.png"
+    },
+    {
+        "Model": "XGBoost_RFE",
+        "n_features_selected": 20,
+        "Selected Feature Names": [
+            "los_hosp",
+            "anchor_age",
+            "palliative_care_flag",
+            "cognitive_impairment_flag",
+            "num_comorbidities",
+            "unique_high_risk_med",
+            "high_risk_med_count",
+            "icu_pao2_flag",
+            "icu_paco2_flag",
+            "icu_peep_flag",
+            "icu_ph_flag",
+            "icu_fio2_flag",
+            "icu_base_excess_flag",
+            "icu_lactate_flag",
+            "admission_type_EW EMER.",
+            "discharge_location_HOME",
+            "discharge_location_HOME HEALTH CARE",
+            "discharge_location_PSYCH FACILITY",
+            "discharge_location_SKILLED NURSING FACILITY",
+            "discharge_location_UNKNOWN"
+        ],
+        "Accuracy": 0.8161914180539531,
+        "Precision (Delirium = 1)": 0.07799468853375577,
+        "Recall (Delirium = 1)": 0.8549540347293156,
+        "F1-Score (Delirium = 1)": 0.1429486358396311,
+        "Confusion Matrix": [
+            [
+                87459,
+                19789
+            ],
+            [
+                284,
+                1674
+            ]
+        ],
+        "ROC AUC Score": 0.9093982737898676,
+        "ROC Curve Path": "D:/MIMIC-IV-Data-Pipeline/ROC_XGB_RFE.png"
+    }
+]
