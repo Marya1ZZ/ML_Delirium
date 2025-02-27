@@ -24,4 +24,4 @@ Contact: If you need additional information on replicating the analysis (particu
 # Notes
 MIMIC Data: Not included here for privacy and size reasons; the processing scripts assume an existing structure of MIMIC files.
 Dependencies: Most scripts rely on Python 3.8+ with common libraries like pandas, scikit-learn, xgboost, and numpy. Check individual scripts or notebooks for detailed requirements.
-License: MIT License (or whichever license applies).
+License: MIT License
