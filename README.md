@@ -1,5 +1,5 @@
-# ML_Delirium
-Datathon Project on Delirium Prediction
+# ML to Preict Delirium
+Datathon Course Project  
 This repository contains scripts, documentation, and partial datasets for a delirium prediction project focusing on patients in palliative care. The main objective is to investigate risk factors and develop machine learning models to identify delirium cases early.
 
 # Repository Structure
