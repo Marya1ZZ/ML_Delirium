@@ -5,12 +5,16 @@ This repository contains scripts, documentation, and partial datasets for a deli
 # Repository Structure
 scripts/
 Contains multiple script files (Python notebooks, R scripts, etc.) used for data preprocessing, exploratory data analysis (EDA), and machine learning modeling.
+
 data/
 Includes non-sensitive subsets of data, such as model performance summaries, diagnosis maps (ICD mappings), and any relevant intermediate outputs. The large MIMIC data is not stored here due to privacy/size constraints.
+
 docs/
 Holds the final report(s) in PDF/Word format and any supporting documentation or presentation slides.
+
 README.md
 This file, providing a quick overview of the project, instructions to reproduce key steps (minus the private MIMIC data), and references to scripts/folders.
+
 # How to Use
 Review theinterim reports in docs/ for a summary of our methods (including missing data strategies) and key modeling results.
 Explore the scripts in scripts/ to see the workflow for data cleaning, feature engineering, and various machine learning approaches (e.g., SMOTE oversampling, class-weight adjustments).
